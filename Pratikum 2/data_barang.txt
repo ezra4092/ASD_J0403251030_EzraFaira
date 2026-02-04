@@ -1,0 +1,5 @@
+BRG01,Pensil,12
+BRG02,Penghapus,10
+BRG03,Pulpen,30
+BRG04,Spidol,21
+BRG05,Tinta,20
