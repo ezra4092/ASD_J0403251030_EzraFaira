@@ -124,31 +124,31 @@ def main():
     # menjalankan fungsi 1 load data
     buka_data = baca_data(nama_file)
 
-while True:
-    print("\n === Menu Data Mahasiswa ===")
-    print("1. Tampilkan semua data")
-    print("2. Cari data berdasarkan NIM")
-    print("3. Update nilai mahasiswa")
-    print("4. Simpan data ke file")
-    print("0. Keluar")
+    while True:
+        print("\n === Menu Data Mahasiswa ===")
+        print("1. Tampilkan semua data")
+        print("2. Cari data berdasarkan NIM")
+        print("3. Update nilai mahasiswa")
+        print("4. Simpan data ke file")
+        print("0. Keluar")
 
-    pilihan = int(input("Pilihan menu: ").strip())
+        pilihan = int(input("Pilihan menu: ").strip())
 
-    if pilihan == 1:
-        tampilkan_data(buka_data)
-    elif pilihan == 2:
-        tampilkan_data(buka_data)
-        cari_data(buka_data)
-    elif pilihan == 3:
-        update_nilai(buka_data)
-    elif pilihan == 4:
-        simpan_data(nama_file, buka_data)
-        print("Data berhasil disimpan")
-    elif pilihan == 0:
-        print("Program Selesai")
-        break
-    else:
-        print("Pilihan tidak valid. Coba lagi")
+        if pilihan == 1:
+            tampilkan_data(buka_data)
+        elif pilihan == 2:
+            tampilkan_data(buka_data)
+            cari_data(buka_data)
+        elif pilihan == 3:
+            update_nilai(buka_data)
+        elif pilihan == 4:
+            simpan_data(nama_file, buka_data)
+            print("Data berhasil disimpan")
+        elif pilihan == 0:
+            print("Program Selesai")
+            break
+        else:
+            print("Pilihan tidak valid. Coba lagi")
 
 if __name__ == "__main__":
     main()

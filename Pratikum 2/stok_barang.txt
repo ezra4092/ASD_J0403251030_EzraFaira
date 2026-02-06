@@ -1,0 +1,7 @@
+BRG01,Roti,20
+BRG02,Air Mineral,15
+BRG03,Teh Botol,10
+BRG04,Pulpen,22
+BRG05,Pensil,19
+BRG06,Buku,12
+BRG07,Penghapus,5
