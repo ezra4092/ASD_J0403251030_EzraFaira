@@ -1,0 +1,4 @@
+BK01,Majalah Bobo,15000
+BK02,Novel A+,90000
+BK03,Novel ABC,100000
+BK04,Kamus B.Inggris,30000
