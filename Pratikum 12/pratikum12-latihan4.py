@@ -4,7 +4,7 @@
 # =================================================
 
 # =================================================
-# Latihan 4: Studi Kasus dengan program shortest path
+# Latihan 4: Studi Kasus Jalur Terpendek Lokasi Kampus
 # Algoritma: Dijkstra
 # =================================================
 
